@@ -1,0 +1,10 @@
+<module rename-to='jmarioflash'>
+  <inherits name='playn.PlayNFlash'/>
+
+  <source path='core'/>
+  <source path='flash'/>
+
+  <public path="resources" />
+
+  <entry-point class='net.geekweavers.jug.flash.JMarioFlash'/>
+</module>
