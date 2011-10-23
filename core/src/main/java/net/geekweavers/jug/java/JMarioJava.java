@@ -11,6 +11,7 @@ public class JMarioJava {
   public static void main(String[] args) {
     JavaPlatform platform = JavaPlatform.register();
     platform.assetManager().setPathPrefix("src/main/java/net/geekweavers/jug/resources");
+    // FIXME JMario
     PlayN.run(new Platformer());
   }
 }

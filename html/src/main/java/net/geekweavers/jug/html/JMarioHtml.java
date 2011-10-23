@@ -5,6 +5,7 @@ import playn.html.HtmlGame;
 import playn.html.HtmlPlatform;
 
 import net.geekweavers.jug.core.JMario;
+import net.geekweavers.jug.core.Platformer;
 
 public class JMarioHtml extends HtmlGame {
 
@@ -12,6 +13,7 @@ public class JMarioHtml extends HtmlGame {
   public void start() {
     HtmlPlatform platform = HtmlPlatform.register();
     platform.assetManager().setPathPrefix("jmario/");
-    PlayN.run(new JMario());
+    // FIXME JMario
+    PlayN.run(new Platformer());
   }
 }

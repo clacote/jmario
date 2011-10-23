@@ -5,6 +5,7 @@ import playn.flash.FlashGame;
 import playn.flash.FlashPlatform;
 
 import net.geekweavers.jug.core.JMario;
+import net.geekweavers.jug.core.Platformer;
 
 public class JMarioFlash extends FlashGame {
 
@@ -12,6 +13,7 @@ public class JMarioFlash extends FlashGame {
   public void start() {
     FlashPlatform platform = FlashPlatform.register();
     platform.assetManager().setPathPrefix("jmarioflash/");
-    PlayN.run(new JMario());
+    // FIXME JMario
+    PlayN.run(new Platformer());
   }
 }
